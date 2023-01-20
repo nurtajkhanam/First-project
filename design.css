@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* header and navigation styles */
+.header {
+  background: #fff8f3;
+  background: url(images/header_bg.png), url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+nav li {
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+.nav-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  background: #fd6e0a;
+  border-radius: 5px;
+  width: 150px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+/* banner styles */
+.banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.banner-details {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/* main section styles */
+.about {
+  width: 1140px;
+  height: 550px;
+  left: 230px;
+  top: 967px;
+  background: #fff8f3;
+  border-radius: 10px;
+  align-items: center;
+  margin: 200px 230px;
+}
+.about-head {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 131px;
+  padding-bottom: 30px;
+}
+.about-details {
+  padding: 0 157px;
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 179px 131px 179px;
+}
+.info-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
