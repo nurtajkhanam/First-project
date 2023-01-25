@@ -42,6 +42,22 @@ nav ul {
   line-height: 27px;
   color: #ffffff;
 }
+.btn-white {
+  border-radius: 5px;
+  width: 180px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  margin-left: 30px;
+  border-color: #fd6e0a;
+  
+}
+button:focus {
+  outline: none !important;
+}
 /* banner styles */
 .banner {
   margin: 0 200px;
